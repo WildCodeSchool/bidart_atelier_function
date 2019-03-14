@@ -1,21 +1,27 @@
-function helloWorld() {
-    console.log('Hello World!');
+function hello(){
+
+    console.log("Hello World");
+}
+///////////////////////////
+
+function hello2(parametre) {
+    return parametre;
 }
 
-function returnParam(param) {
-    return param;
+//////////////////////////
+function text(parametre) {
+    return parametre * 2;
 }
 
-function double(int) {
-    return int * 2;
+///////////////////////////
+function text2(string, string2){
+    
+    return string * string2;
 }
 
-function multiply(num1, num2) {
-    return num1 * num2;
-}
-
-function starred(string) {
+/////////////////////////////
+function text3(string) {
     return '*' + string + '*';
 }
 
-console.log(starred('jim'))
+///////////////////////////////
