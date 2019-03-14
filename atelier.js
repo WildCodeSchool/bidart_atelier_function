@@ -10,5 +10,5 @@ console.log (num1(7));
 const mult = (a, b) => a * b;
 console.log (mult(5, 7));
 //
-const strg = ()  => "strg";
-console.log (strg);
+const strg = (a)  => "*" + a + "*";
+console.log (strg('help'));
