@@ -1,36 +1,21 @@
-function text(){
-
-    return "Hello World";
+function helloWorld() {
+    console.log('Hello World!');
 }
-console.log(string);
-//////////////////////////
-function text(string){
 
-    return string;
+function returnParam(param) {
+    return param;
 }
-const string = "Hello World";
-console.log(string);
 
-///////////////////////////
-function text(string){
-    
-    return string * 2;
+function double(int) {
+    return int * 2;
 }
-const string = text();
-console.log(string);
 
-/////////////////////////////
-
-function text(a, b){
-    return a * b;
+function multiply(num1, num2) {
+    return num1 * num2;
 }
-let line = third(3,4);
-console.log(line);
 
-///////////////////////////////
-
-function text(a){
-    return "* " + a + " *";
+function starred(string) {
+    return '*' + string + '*';
 }
-let line = fourth("John");
-console.log(line)
+
+console.log(starred('jim'))
