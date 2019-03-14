@@ -1,0 +1,23 @@
+const hello = () => console.log('Hello World!');
+hello()
+
+////////////////////////////////////////////////////////
+
+const theSame = (n) => n;
+console.log(theSame("Wtf"));
+
+////////////////////////////////////////////////////////
+
+const theDouble = (n) => n * 2;
+console.log(theDouble(51));
+
+///////////////////////////////////////////////////////
+
+const multiply = (a, b) => a * b;
+console.log(multiply(51, 51));
+
+///////////////////////////////////////////////////////
+
+const chain = (n) => "*" + n + "*";
+console.log(chain('Pastis'));
+
