@@ -1,12 +1,16 @@
-let myAge = 29;
-const myName = 'Jonathan Galvao Diniz';
-let isinWCS = false;
-const schoolName = 'Wild Code School';
+const HelloWorld = () => 'Hello World!';
+console.log(HelloWorld());
 
-console.log(typeof myAge, typeof myName, typeof isinWCS, typeof schoolName);
-console.log(myAge, myName, isinWCS, schoolName);
+const sameValue = v => v;
+console.log(sameValue('Hello World!'));
 
-myAge++;
-isinWCS = true;
+const doubleValue = x => x * 2;
+console.log(doubleValue(10));
 
-console.log(myAge, myName, isinWCS, schoolName);
+const multipleValue = (a, b) => a * b;
+console.log(multipleValue(10, 20));
+
+const addQuote = str => `*${str}*`;
+console.log(addQuote(''));
+
+// By Jonathan Galvao Diniz
